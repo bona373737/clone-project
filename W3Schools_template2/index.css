@@ -1,0 +1,193 @@
+
+/* ************common css */
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/* ******************header */
+header{
+    width: 100%;
+    height: 50px;
+    background: white;
+    box-shadow: 1px 5px 5px gray;
+    position: fixed;
+    z-index: 2;
+    top : 0;
+    letter-spacing: 3px;
+}
+header #header-logo{
+    display: inline;
+}
+header #header-nav{
+    display: inline;
+    line-height: 50px;
+}
+header #header-nav{
+    margin-left: 60%;
+    line-height: 50px;
+}
+header a{
+    padding: 10px;
+    margin: 10px;
+}
+header span{
+    font-weight: bold;
+}
+header a:hover{
+    background: gray;
+}
+
+/* ******************footer */
+footer{
+    width: 100%;
+    height: 80px;
+    background: black;
+    color: white;
+    text-align: center;
+    /* 레이아웃 */
+}
+
+footer div a{
+    color: white;
+    text-decoration: 1px underline white;
+    line-height: 80px;
+}
+
+/* ******************main */
+main{
+    width: 90%;
+    margin-top: 50px;
+    margin-left: 5%
+}
+main section{
+    padding: 30px 0px;
+}
+main section:first-child{
+    padding: 0;
+}
+main section h1{
+    font-size: 30px;
+    padding-bottom: 10px;
+    margin: 30px 0px;
+    border-bottom: 2px solid whitesmoke;
+}
+main section p{
+    font-size: 20px;
+    margin: 20px 0px;
+}
+
+/* ***************************main-section:main-top-img*/
+main section#main-top-img{
+    width:100%;
+    position: relative;
+}
+main section#main-top-img img{
+    width:100%;
+    height:auto;
+}
+main section#main-top-img h1{
+    border-bottom: none;
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+}
+main section#main-top-img h1 span{
+    color: white;
+    padding: 10px 10px;
+    margin: 10px;
+    font-weight: bold;
+    background-color:rgba(23,25,26,0.8);
+    vertical-align: baseline;
+}
+
+/* ***********5****************main-section:main-project*/
+main section#main-projects{
+    width: 100%;
+}
+main section#main-projects #project-list{
+    width: 100%;
+}
+main section#main-projects #project-list div{
+    position: relative;
+    width: 23%;
+    height: auto;
+    display: inline-block;
+    margin: 0 10px 10px 0;
+}
+main section#main-projects #project-list img{
+    width: 100%;
+    height: auto;
+}
+main section#main-projects #project-list h3{
+    background-color: rgb(23,25,26);
+    color: white;
+    padding: 10px;
+    position: absolute;
+    z-index: 1;
+    top : 0;
+    left: 0;
+}
+
+
+/* ***********5****************main-section:main-about*/
+main section#main-about #about-team{
+    display : flex;
+    justify-content: space-between;
+}
+
+main section#main-about #about-team div{
+    width: 25%;
+    padding: 10px;
+    box-sizing: border-box;
+
+}
+main section#main-about #about-team img{
+    width: 100%;
+    height: auto;
+}
+main section#main-about #about-team h1{
+    border: none;
+}
+main section#main-about #about-team h3{
+    font-size: 20px;
+    color: gray;
+    margin: 20px 0px;
+}
+main section#main-about #about-team button{
+    width: 100%;
+    padding: 5px 0px;
+    border: none;
+    font-size: 20px;
+}
+
+/* ***********5****************main-section:main-contact*/
+main section#main-contact input{
+    display: block;
+    width: 100%;
+    border: 1px solid rgba(128, 128, 128,0.5);
+    padding: 10px 0;
+    margin: 20px 0;
+    text-indent: 10px;
+}
+main section#main-contact button{
+    background-color: rgb(23,25,26);
+    color: white;
+    padding: 10px;
+}
+
+
+/* ***********5****************main-section:main-bottom-img*/
+main section#main-bottom-img {
+    width: 100%;
+}
+main section#main-bottom-img img{
+    width: 100%;
+    height: auto;
+}
