@@ -1,0 +1,188 @@
+*{
+    font-family: 'Rokkitt', serif;
+}
+section#container{
+    width: 70%;
+    margin: auto;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/* ************************************** header */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top:0;
+    height: 50px;
+    background: white;
+}
+header img{
+    width: 20px;
+    height: 30px;
+    vertical-align: middle;
+
+}
+header h1:nth-child(2){
+    display: inline-block;
+    margin-left: 40%;
+    height: 30px;
+    
+}
+header h1:nth-child(3){
+    display: inline-block;
+    margin-left: 40%;
+    height: 30px;
+}
+
+/* ************************************** main */
+main{
+    width: 100%;
+    margin-top: 70px;
+}
+
+/* ************************************** main > section:food */
+main section#food{
+    width: 100%;
+}
+main section#food ul#food-list{
+    width: 100%;
+    
+}
+main section#food ul#food-list li{
+    width: 24%;
+    height: 500px;
+    display: inline-block;
+    vertical-align: middle;
+}
+main section#food ul#food-list li>img{
+    width: 100%;
+    height: 70%;
+}
+main section#food ul#food-list li div#food-text{
+    width: 100%;
+    height: 30%;
+    text-align: center;
+}
+main section#food ul#food-list li div#food-text h1{
+    font-size: 20px;
+    padding: 10px 0px;
+}
+main section#food ul#food-list li div#food-text h2{
+    font-size: 15px;
+    padding: 5px;
+
+}
+main section#food #food-pagination{
+    text-align: center;
+    border-bottom: 1px solid whitesmoke;
+    padding: 50px 0px;
+}
+main section#food #food-pagination a{
+    display: inline-block;
+    padding: 15px;
+    margin: 5px;
+}
+main section#food #food-pagination a:nth-child(2){
+    color: white;
+    background-color: black;
+}
+
+main section#food #food-pagination a:hover{
+    color: white;
+    background-color: black;
+}
+main section#food #food-pagination a:nth-child(2):hover{
+    color: black;
+    background-color: gray;
+}
+
+
+/* ************************************** main > section:about*/
+main section#about{
+    text-align: center;
+    font-size: 30px;
+    border-bottom: 1px solid whitesmoke;
+
+}
+main section#about h1{
+    padding: 70px 0px 50px 0px;
+}
+main section#about h2{
+    font-size: 0.9em;
+    font-style: bold;
+    padding: 30px;
+
+}
+main section#about h3{
+    font-size: 0.5em;
+    font-style: italic;
+    padding-bottom: 20px;
+}
+main section#about p{
+    font-size: 0.4em;
+    padding-bottom: 70px;
+    line-height: 20px;
+}
+
+
+/* ************************************** footer */
+footer{
+    width: 100%;
+    height: 250px;
+    font-size: 20px;
+    padding: 30px 0px;
+}
+footer section#footer-text,
+footer section#footer-posts,
+footer section#footer-tags{
+    display: inline-block;
+    width: 32%;
+    height: 240px;
+    margin-left: 5px;
+    vertical-align: top;
+}
+footer section#footer-text h1,
+footer section#footer-posts h1,
+footer section#footer-tags h1{
+    margin-bottom: 30px;
+}
+footer section#footer-text p{
+    padding: 0px 0px 10px 0px;
+    font-size: 0.7em;
+    line-height: 20px;
+}
+footer section#footer-text a{
+    text-decoration: underline
+}
+footer section#footer-posts li{
+    padding-bottom: 20px;
+    border-bottom: 1px solid whitesmoke;
+}
+footer section#footer-posts li img{
+    width: 70px;
+    vertical-align: middle;
+}
+footer section#footer-posts li h2{
+    font-size: 0.8em;
+    padding: 10px 0px;
+}
+footer section#footer-posts li h3{
+    font-size: 0.7em;
+}
+footer section#footer-posts li #posts-text{
+    display: inline-block;
+}
+footer section#footer-tags span{
+    background-color: gray;
+    font-size: 0.7em;
+    color: white;
+    padding: 5px;
+    line-height: 50px;
+}
+footer section#footer-tags span:nth-child(2){
+    background-color: black;
+}
