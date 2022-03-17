@@ -1,0 +1,180 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+body{
+    text-align: center;
+    background: #F2E1E1;;
+}
+section{
+    padding: 30px 0px;
+}
+img{
+    border-radius: 5px;
+}
+
+/* *********************************header */
+header{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background : rgb(255,255,255,0.5);
+}
+header #menu-button{
+}
+header a{
+    display: block;
+    width: 25%;
+    line-height: 50px;
+    float: left;
+}
+header a:hover{
+    background-color: gray;
+}
+
+/* *********************************section:home */
+section#home{
+    width: 100%;
+    height: 600px;
+    background: url(./res/wedding_couple.jpg) no-repeat center center;
+    background-size: cover;
+}
+section#home div{
+    padding-top: 100px;
+    color: white;
+}
+section#home h1{
+    font-size: 80px;
+    padding-top: 20px;
+
+}
+section#home p{
+    font-size: 40px;
+    padding-top: 20px;
+}
+
+/*****************************section:host*/
+section#host>h1{
+    font-size:50px;
+    margin: 30px 0px;
+    color: #757575;
+}
+section#host p{
+    text-align: start;
+    width: 900px;
+    margin: auto;
+    padding: 30px 0px;
+    line-height: 30px;
+}
+section#host button{
+    padding: 20px 30px;
+    background: black;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+section#host button:hover{
+    background: gray;
+    color: black;
+}
+
+
+
+/*****************************section:invite*/
+section#invite{
+    width: 100%;
+    height: 600px;
+    background: url(./res/flowers.jpg) no-repeat center center;
+    background-size: cover;
+    padding-top: 300px;
+    color: white;
+}
+section#invite h1{
+    font-size: 80px;
+}
+section#invite p{
+    margin-top: 50px;
+    font-size: 50px;
+}
+
+
+/*****************************section:wedding*/
+section#wedding>h1{
+    font-size:50px;
+    margin: 30px 0px;
+    color: #757575;
+}
+section#wedding div#details{
+    width: 900px;
+    margin: auto;
+    padding-top: 30px;
+    font-size: 30px;
+}
+section#wedding div#details p{
+    font-size: 20px;
+    margin-top: 10px;
+    color: #757575;
+
+}
+section#wedding div#details div#when{
+    display: inline-block;
+    margin-right: 60px;
+}
+section#wedding div#details div#where{
+    display: inline-block;
+ 
+}
+
+
+/*****************************section:rsvp */
+section#rsvp{
+    background: #FFDDDD;
+}
+section#rsvp h1{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+section#rsvp p{
+    margin: 30px 0px;
+    font-size: 20px;
+
+}
+section#rsvp button{
+    padding: 20px 30px;
+    border-radius: 5px;
+    font-size: 20px;
+    background: #F88179;
+    color: white;
+    border: none;
+    margin-bottom: 50px;
+}
+section#rsvp button:hover{
+    background: gray;
+    color: black;
+}
+
+
+/*****************************footer */
+footer{
+    width: 100%;
+    height: 100px;
+    background: black;
+    color: white;
+    font-size: 20px;
+}
+footer a{
+    color: white;
+    text-decoration: underline;
+}
+footer div{
+    line-height: 100px;
+}
+
