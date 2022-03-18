@@ -1,0 +1,405 @@
+*{
+
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+body{
+    background: #F1F1F1;
+}
+#container{
+    width: 1200px;
+    position: relative;
+    margin: auto;
+}
+/* ********************************* nav */
+nav{
+   width: 20%;
+    height: 100%;
+    background: white;
+    position: absolute;
+    top:0;
+    left: 0;
+}
+nav #nav_wrap{
+    padding: 20px 0 0 10px;
+}
+nav #nav_wrap>img{
+    width: 120px;
+    border-radius: 5px;
+    padding-bottom: 20px;
+}
+nav #nav_wrap ul{
+    line-height: 40px;
+}
+
+nav #nav_wrap ul li:nth-child(3){
+    color: #009688;
+}
+nav #nav_wrap ul li h1{
+    font-weight: bold;
+    font-size: 20px;
+}
+nav #nav_wrap ul li h3{
+    color: gray;
+}
+nav #nav_wrap ul li i{
+    padding-right: 5px;
+}
+nav #nav_wrap ul li #sns{
+    letter-spacing: -2px;
+}
+
+
+
+/* *************************************main */
+main{
+    margin-left: 20%;
+    width: 80%;
+}
+main section{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 50px 20px;
+    
+}
+/* ******************************** */
+main section#portfolio_list_wrap{
+    padding-top: 20px;
+}
+main section#portfolio_list_wrap>h1{
+    font-size: 50px;
+    font-weight: bold;
+    padding-bottom: 50px;
+}
+main section#portfolio_list_wrap #filter{
+    border-bottom: 7px solid darkgray;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+main section#portfolio_list_wrap #filter button{
+    font-size: 20px;
+    border: none;
+    background-color: white;
+    padding: 10px 10px;
+}
+main section#portfolio_list_wrap #filter button:hover{
+    background-color: darkgray;
+}
+main section#portfolio_list_wrap #filter i{
+    padding-right: 15px;
+}
+main section#portfolio_list_wrap #filter button:nth-child(2){
+    background-color: black;
+    color:white
+}
+main section#portfolio_list_wrap #filter button:nth-child(2):hover{
+    background-color: darkgray;
+    color: black;
+}
+main section#portfolio_list_wrap #portfolio_list::after{
+    content: '';
+    display: block;
+    clear: both;
+    float: none;
+}
+main section#portfolio_list_wrap #portfolio_list li{
+    width: 32%;
+    height: 400px;
+    background: white;
+    float: left;
+    margin-right: 12px;
+    margin-top: 20px;
+}
+main section#portfolio_list_wrap #portfolio_list li img{
+    width: 100%;
+    height: 60%;
+    
+}
+main section#portfolio_list_wrap #portfolio_list li h1{
+    font-size: 25px;
+    padding: 10px 0;
+}
+main section#portfolio_list_wrap #portfolio_list li #portfolio_text{
+    width: 100%;
+    height: 40%;
+    font-size: 18px;
+    padding: 0 10px;
+}
+main section#portfolio_list_wrap #pagination ul{
+    padding: 50px 0px;
+    text-align: center;
+    font-size: 20px;
+}
+main section#portfolio_list_wrap #pagination li{
+    display: inline-block;
+}
+main section#portfolio_list_wrap #pagination li a{
+    padding: 13px 20px;
+}
+main section#portfolio_list_wrap #pagination li:nth-child(2) a{
+    background-color: black;
+    color: white;
+}
+main section#portfolio_list_wrap #pagination li a:hover{
+    background-color: black;
+    color: white;
+}
+main section#portfolio_list_wrap #pagination li:nth-child(2) a:hover{
+    background-color: darkgray;
+    color: black;
+}
+
+/* **************************section:about */
+main section#about #about_img{
+    text-align: center;
+}
+main section#about #about_img img{
+    width: 455px;
+}
+main section#about #about_text{
+    padding: 30px 0;
+}
+main section#about #about_text h1{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+main section#about #about_text p{
+    font-size: 15px;
+    line-height: 20px;
+}
+main section#about #about_skills h1{
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+main section#about #about_skills h2{
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+main section#about #about_skills button{
+    font-size: 15px;
+    background-color: gray;
+    border: none;
+    color: white;
+    padding: 10px 5px;
+    margin-top: 10px;
+}
+main section#about #about_skills button:hover{
+    background-color: darkgray;
+}
+main section#about .skill_bar{
+    width: 100%;
+    height: 30px;
+    background: darkgray;
+}
+main section#about .skill_bar>div{
+    line-height: 30px;
+    text-indent: 10px;
+}
+main section#about #photography div{
+    width: 95%;
+    height: 30px;
+    background: gray;
+}
+main section#about #web div{
+    width: 85%;
+    height: 30px;
+    background: gray;
+}
+main section#about #photoshop div{
+    width: 80%;
+    height: 30px;
+    background: gray;
+}
+
+
+/* **************************section:charge */
+main section#charge h1{
+    font-size: 23px;
+    padding-bottom: 10px;
+}
+main section#charge .option{
+    display: inline-block;
+    border: 1px solid rgba(185,185,185,0.5) 
+}
+main section#charge .option li{
+    width: 210px;
+    border-bottom: 1px solid rgba(185,185,185,0.5) ;
+    text-align: center;
+    font-size: 20px;
+    padding: 20px 45px;
+    background-color: white;
+}
+main section#charge .option ul{
+    opacity: 0.5;
+}
+main section#charge .option ul:hover{
+    opacity: 1;
+}
+
+main section#charge .option li:first-child{
+    line-height: 60px;
+    background-color: gray;
+    font-size: 30px;
+    color: white;
+}
+main section#charge .option li:nth-child(6){
+    font-size: 30px;
+    height: 80px;
+}
+main section#charge .option li:last-child{
+    background-color: #F1F1F1;
+}
+main section#charge #option_pro li:nth-child(1){
+    background-color: #009688 ;
+}
+main section#charge .option li button{
+    background-color: #009688 ;
+    border: none;
+    padding: 10px 10px;
+    font-size: 20px;
+    color: white;
+}
+main section#charge .option li button:hover{
+    background-color: gray;
+}
+
+
+
+
+/* **************************section:contact */
+main section#contact{
+    background-color: #9E9E9E;
+}
+main section#contact h1{
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+main section#contact #contact_ways{
+    border-bottom: 0.5px solid white;
+    padding-bottom: 30px;
+}
+main section#contact #contact_ways>div{
+    display: inline-block;
+    width: 300px;
+    height: 80px;
+    background: #616161;
+    text-align: center;
+    color: white;
+}
+main section#contact #contact_ways>div i{
+    padding-top: 20px;
+}
+main section#contact #contact_ways>div:nth-child(2){
+    background-color: #009688;
+}
+
+main section#contact form{
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+main section#contact label{
+    font-size: 18px;
+    padding-bottom: 5px;
+}
+main section#contact input{
+    height: 30px;
+    margin-bottom: 20px;
+}
+main section#contact button{
+    width: 30%;
+    font-size: 15px;
+    padding: 10px;
+    color: white;
+    background-color: black;
+    border: none;
+}
+main section#contact button:hover{
+    background-color: gray;
+}
+
+/* ***************************footer: */
+footer{
+    margin-left: 20%;
+    width: 80%;
+}
+footer section{
+    box-sizing: border-box;
+    width: 30%;
+    padding: 50px 20px;
+    display: inline-block;
+    vertical-align: top;
+    color: white;
+}
+footer > div:first-child{
+    background-color: #616161;
+}
+footer > div:last-child{
+    background-color: black;
+}
+footer section h1{
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+footer section#footer_text p{
+    padding-bottom: 20px;
+}
+footer section#footer_text a{
+    color: white;
+    text-decoration: underline;
+} 
+footer section#footer_posts li:first-child{
+    padding-bottom: 10px;
+    border-bottom: 1px solid white;
+    padding-left: 5px;
+    
+}
+footer section#footer_posts li:last-child{
+    padding-top: 10px;
+    padding-left: 5px;
+
+}
+footer section#footer_posts img{
+    width: 50px;
+}
+footer section#footer_posts a{
+    color: white;
+}
+footer section#footer_posts li:hover{
+    background-color: darkgray;
+}
+footer section#footer_posts div{
+    display: inline-block;
+    padding-left: 10px;
+}
+footer section#tags span{
+    background-color: darkgray;
+    color: black;
+    line-height: 30px;
+    padding: 0 5px;
+}
+footer section#tags span:nth-child(2){
+    background-color: black;
+    color: white;
+}
+footer>div:last-child{
+    height : 80px;
+    color: white;
+    text-align: center;
+    line-height: 80px;
+}
+footer>div:last-child a{
+    color: white;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
